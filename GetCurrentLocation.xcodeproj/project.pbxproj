@@ -22,6 +22,7 @@
 		331F07FE18CF0C1A00F68CDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 331F07DD18CF0C1A00F68CDF /* UIKit.framework */; };
 		331F080618CF0C1A00F68CDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 331F080418CF0C1A00F68CDF /* InfoPlist.strings */; };
 		331F080818CF0C1A00F68CDF /* GetCurrentLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 331F080718CF0C1A00F68CDF /* GetCurrentLocationTests.m */; };
+		331F081218CF0DFB00F68CDF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 331F081118CF0DFB00F68CDF /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		331F080318CF0C1A00F68CDF /* GetCurrentLocationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GetCurrentLocationTests-Info.plist"; sourceTree = "<group>"; };
 		331F080518CF0C1A00F68CDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		331F080718CF0C1A00F68CDF /* GetCurrentLocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetCurrentLocationTests.m; sourceTree = "<group>"; };
+		331F081118CF0DFB00F68CDF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				331F081218CF0DFB00F68CDF /* CoreLocation.framework in Frameworks */,
 				331F07DC18CF0C1A00F68CDF /* CoreGraphics.framework in Frameworks */,
 				331F07DE18CF0C1A00F68CDF /* UIKit.framework in Frameworks */,
 				331F07DA18CF0C1A00F68CDF /* Foundation.framework in Frameworks */,
@@ -103,6 +106,7 @@
 		331F07D818CF0C1A00F68CDF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				331F081118CF0DFB00F68CDF /* CoreLocation.framework */,
 				331F07D918CF0C1A00F68CDF /* Foundation.framework */,
 				331F07DB18CF0C1A00F68CDF /* CoreGraphics.framework */,
 				331F07DD18CF0C1A00F68CDF /* UIKit.framework */,
